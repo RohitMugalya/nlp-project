@@ -1,2 +1,4 @@
+chroma_db/
+response_K*.txt
 .env
 __pycache__/
