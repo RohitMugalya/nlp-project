@@ -28,7 +28,7 @@ class RAGSystem:
             from llama_index.llms.gemini import Gemini
             import google.generativeai as genai
             genai.configure(api_key=gemini_api_key)
-            llm = Gemini(model="models/gemini-1.5-flash", api_key=gemini_api_key)
+            llm = Gemini(model="models/gemini-2.5-flash", api_key=gemini_api_key)
             Settings.llm = llm
         
         embed_model = HuggingFaceEmbedding(model_name="all-MiniLM-L6-v2")
