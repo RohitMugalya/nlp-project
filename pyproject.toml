@@ -1,0 +1,23 @@
+[project]
+name = "nlp-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.5.2",
+    "llama-index>=0.14.15",
+    "llama-index-embeddings-huggingface>=0.6.1",
+    "llama-index-llms-gemini>=0.6.2",
+    "llama-index-vector-stores-chroma>=0.5.5",
+    "matplotlib>=3.10.8",
+    "pandas>=2.3.3",
+    "plotly>=6.6.0",
+    "pypdf>=6.7.5",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.2",
+    "scikit-learn>=1.8.0",
+    "sentence-transformers>=5.2.3",
+    "streamlit>=1.55.0",
+    "watchdog>=6.0.0",
+]

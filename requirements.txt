@@ -1,0 +1,15 @@
+streamlit
+llama-index
+llama-index-llms-gemini
+llama-index-vector-stores-chroma
+llama-index-embeddings-huggingface
+chromadb
+sentence-transformers
+pypdf
+python-docx
+matplotlib
+plotly
+pandas
+scikit-learn
+watchdog
+python-dotenv
